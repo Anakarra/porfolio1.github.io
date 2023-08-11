@@ -1,0 +1,41 @@
+/* GOOGLE FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
+
+/* UNIVERSAL SELECTOR */
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Heebo', sans-serif;
+}
+
+/* VARIABLES */
+
+:root{
+    --main-color: #21243d;
+    --small-heading: #b3bdc6;
+    --active-color: #f10000;
+    --hover-color: #a00000;
+    --post-background: #edf7fa;
+    --border-color: #efefef;
+    --white-color: #fff;
+    --black-color: #000;
+    --viewMore-color: #200fbe;
+}
+
+/* CONTAINER TO CREATE SPANCE FROM LEFT AND RIGHT */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* NORMAL HEADING FONT SIZE */
+
+.font-size{
+    font-size: 2rem;
+    line-height: 1.5;
+}
